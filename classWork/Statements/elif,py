@@ -1,0 +1,18 @@
+operand_1=int(input("Enter operand_1: "))
+operand_2 = int(input("Enter operand_2: "))
+operator=input("select operator('+','-','*','/'): ")
+
+if operator=='+':
+     print(operand_1+operand_2)
+elif operator == '-':
+     print(operand_1-operand_2)     
+elif operator=='*'  :
+     print(operand_1*operand_2)   
+elif operator=='/':
+     print(operand_1/operand_2)     
+
+else:
+     print("none")
+print("Thank you")
+    
+
